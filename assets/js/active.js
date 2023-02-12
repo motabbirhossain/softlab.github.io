@@ -31,7 +31,10 @@
             loop: true,
             autoplayTimeout: 2000,
             autoplay:true,
-            nav: true,       
+            nav: true,   
+            smartSpeed: 2000,
+            animateOut: "slideOutLeft",
+            animateIn: "slideInRight",
             navText: ['<i class="far fa-angle-right"></i>', '<i class="far fa-angle-left"></i>'],
            
         });

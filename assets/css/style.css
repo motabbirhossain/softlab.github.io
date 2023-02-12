@@ -1965,6 +1965,12 @@ Hero Section Styles
       -ms-flex-align: center;
           align-items: center;
 }
+.single_funfact_items .icon img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
 .single_funfact_items .icon.icon-1 {
   background: linear-gradient(153.63deg, #BCDDFF 3.43%, #738CF6 90.47%);
   -webkit-filter: drop-shadow(6px 6px 14px rgba(142, 170, 249, 0.4));
@@ -1991,6 +1997,10 @@ Hero Section Styles
   font-size: 28px;
   line-height: 120%;
   margin-bottom: 8px;
+}
+.single_funfact_items:hover .icon img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 /* ----------------------------------
